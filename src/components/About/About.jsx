@@ -9,7 +9,7 @@ const About = () => {
                 <div className=" ">
                     <img src={aboutimg} alt="" className="rounded-lg w-[460px] h-[473px]" />
                 </div>
-                <div className="absolute  -bottom-20 right-14 border-4 border-white rounded-lg">
+                <div className="absolute  -bottom-16 right-14 border-4 border-white rounded-lg">
                     <img src={aboutimg2}alt="" className="  w-[328px] h-[332px]" />
                 </div>
             </div>
