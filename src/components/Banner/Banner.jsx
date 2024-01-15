@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div className="px-36">
       <div className="carousel w-full">
-        <div id="slide1" className="carousel-item relative w-full h-screen">
+        <div id="slide1" className="carousel-item relative w-full h-[600px]">
           <img src={bannerImg} className="w-full rounded-lg" />
           <div className="absolute flex  z-10 justify-between transform -translate-y-1/2  right-5 bottom-5 gap-5">
             <a href="#slide4" className="btn btn-circle  bg-opacity-20 text-white hover:bg-red-500 ">
@@ -31,7 +31,7 @@ const Banner = () => {
 
           </div>
         </div>
-        <div id="slide2" className="carousel-item relative w-full h-screen">
+        <div id="slide2" className="carousel-item relative w-full h-[600px]">
           <img src={bannerImg2} className="w-full rounded-lg" />
           <div className="absolute flex  z-10 justify-between transform -translate-y-1/2  right-5 bottom-5 gap-5">
             <a href="#slide1" className="btn btn-circle  bg-opacity-20 text-white hover:bg-red-500 ">
@@ -54,7 +54,7 @@ const Banner = () => {
 
           </div>
         </div>
-        <div id="slide3" className="carousel-item relative w-full h-screen">
+        <div id="slide3" className="carousel-item relative w-full h-[600px]">
           <img src={bannerImg3} className="w-full rounded-lg" />
           <div className="absolute flex  z-10 justify-between transform -translate-y-1/2  right-5 bottom-5 gap-5">
             <a href="#slide2" className="btn btn-circle  bg-opacity-20 text-white hover:bg-red-500 ">
@@ -77,7 +77,7 @@ const Banner = () => {
 
           </div>
         </div>
-        <div id="slide4" className="carousel-item relative w-full h-screen">
+        <div id="slide4" className="carousel-item relative w-full h-[600px]">
           <img src={bannerImg4} className="w-full rounded-lg" />
           <div className="absolute flex  z-10 justify-between transform -translate-y-1/2  right-5 bottom-5 gap-5">
             <a href="#slide3" className="btn btn-circle  bg-opacity-20 text-white hover:bg-red-500 ">
@@ -100,10 +100,9 @@ const Banner = () => {
 
           </div>
         </div>
-        
       </div>
     </div>
   );
 };
 
-export default Banner;
+export default Banner

@@ -25,7 +25,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="px-36">
+    <div className="px-36 mb-10">
       <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
